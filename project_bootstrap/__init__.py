@@ -1,4 +1,4 @@
-from .bootstrapper import Bootstrapper
-from .updater import SelfUpdater
+from .cli import main
 
-__all__ = ["Bootstrapper", "SelfUpdater"]
+if __name__ == "__main__":
+    main()
