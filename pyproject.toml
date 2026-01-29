@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "project-bootstrap"
+version = "0.1.0"
+description = "Universal project bootstrap and Git auto-updater"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Bagus Choiri" }
+]
+
+keywords = [
+  "bootstrap",
+  "git",
+  "updater",
+  "virtualenv",
+  "automation",
+  "devops"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
+
+[project.urls]
+Homepage = "https://github.com/USERNAME/project-bootstrap"
+Source = "https://github.com/USERNAME/project-bootstrap"
+Issues = "https://github.com/USERNAME/project-bootstrap/issues"
+
+[project.scripts]
+project-bootstrap = "project_bootstrap.cli:main"
